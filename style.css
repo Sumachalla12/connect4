@@ -1,0 +1,43 @@
+body{
+    background: url(pic9.png);
+    color: rgb(15, 14, 15);
+    font-style: italic;
+    
+}
+h1{
+    padding-left: 35%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(7,90px);
+    grid-template-rows: repeat(6,90px);
+    width: 650px;
+    height: 550px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: transparent;
+    outline: 1px solid  black;
+}
+.cell{
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 50%;
+    outline: 0.5px solid black;
+}
+.cell:hover{
+    background-color:  rgb(252, 14, 192);
+}
+#restart{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: aqua;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 15px 25px;
+    text-align: center;
+}
